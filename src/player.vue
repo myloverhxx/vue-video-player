@@ -58,6 +58,8 @@
           fluid: false,
           muted: false,
           language: 'zh_CN',
+          width: '100%',
+          height: '4.24rem',
           controlBar: {
             remainingTimeDisplay: false,
             playToggle: {},
