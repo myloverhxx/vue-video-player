@@ -1,6 +1,6 @@
 <template>
-  <div class="video-player">
-    <video class="video-js"></video>
+  <div class="video-player" style="width: 100%; height: 4.24rem;">
+    <video class="video-js" style="width: 100%; height: 4.24rem;"></video>
   </div>
 </template>
 
@@ -57,9 +57,7 @@
           preload: 'auto',
           fluid: false,
           muted: false,
-          width: '100%',
-          height: '360',
-          language: 'en',
+          language: 'zh_CN',
           controlBar: {
             remainingTimeDisplay: false,
             playToggle: {},
